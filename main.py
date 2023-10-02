@@ -25,7 +25,6 @@ for j in range(M):
 
 # Сумма элементов массивов
 
-# max_length = max(len(arr) for arr in combo)
 arrays_padded = [arr + [0] * (len(Mass_X)  - len(arr)) for arr in combo]
 Mass_Z = [sum(x) for x in zip(*arrays_padded)]
 
